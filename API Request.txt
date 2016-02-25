@@ -1,0 +1,15 @@
+API Request
+	
+	GET Table/List of Users
+	http://localhost/scratch/api.php?action=get_list
+
+	GET Specific User
+	http://localhost/scratch/api.php?action=get_user&id=9
+
+	POST Create User
+	http://localhost/scratch/api.php?action=insert_user
+	with x-www-form-urlencoded body
+
+	PUT Update User
+	http://localhost/scratch/api.php?action=update_user
+	with x-www-form-urlencoded body
