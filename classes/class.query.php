@@ -50,7 +50,7 @@
 			return parent::getInstance()->getConnection()->query($sql);
 		}
 
-		public function update_user($first_name, $last_name, $mobile, $address, $id)
+		public static function update_user($first_name, $last_name, $mobile, $address, $id)
 		{
 			$sql = "UPDATE 
                     `user` 
